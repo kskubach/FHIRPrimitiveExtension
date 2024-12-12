@@ -43,7 +43,7 @@ ClassMethod CreateFHIRClass()
     write resource.ToJSON().Read()
 }
 
-ClassMethod CreateFHIRObjetModel()
+ClassMethod CreateFHIRObjectModel()
 {
 
     #dim patient as HS.FHIRModel.R4.Patient
